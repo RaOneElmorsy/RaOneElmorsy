@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 16px; }
+      .p { fill: #2CB67D; }
+      .c { fill: #e6e6f0; }
+      .o { fill: #a9a9c8; }
+      .k { fill: #b79cff; }
+      text { white-space: pre; }
+      .l { animation: hide .01s backwards; }
+      @keyframes hide { from { opacity: 0; } }
+      .cursor { animation: blink 1s 6.6s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="900" height="400" rx="14" fill="#0d1117" stroke="#2a2f3a"/>
+  <rect width="900" height="36" rx="14" fill="#161b22"/>
+  <rect y="22" width="900" height="14" fill="#161b22"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="18" r="6" fill="#27c93f"/>
+  <text x="450" y="23" text-anchor="middle" class="mono" font-size="13" fill="#7d8590">rawan@mersin: ~</text>
+
+  <g class="mono">
+    <text x="24" y="70" class="l" style="animation-delay:.3s"><tspan class="p">➜ ~</tspan><tspan class="c"> whoami</tspan></text>
+    <text x="24" y="95" class="l o" style="animation-delay:.8s">Rawan Elmorsy — computer engineer building with AI &amp; IoT 💜</text>
+
+    <text x="24" y="130" class="l" style="animation-delay:1.6s"><tspan class="p">➜ ~</tspan><tspan class="c"> cat now.txt</tspan></text>
+    <text x="24" y="155" class="l o" style="animation-delay:2.1s"><tspan class="k">🧠 ml         </tspan> training models, from classic ML to fine-tuning LLMs</text>
+    <text x="24" y="180" class="l o" style="animation-delay:2.4s"><tspan class="k">🤖 iot        </tspan> IoT exploration robot streaming live data</text>
+
+    <text x="24" y="215" class="l" style="animation-delay:3.2s"><tspan class="p">➜ ~</tspan><tspan class="c"> ls ~/learning</tspan></text>
+    <text x="24" y="240" class="l k" style="animation-delay:3.7s">pytorch/   llm-finetuning-lora/   embedded-systems/</text>
+
+    <text x="24" y="275" class="l" style="animation-delay:4.5s"><tspan class="p">➜ ~</tspan><tspan class="c"> echo $LANGUAGES</tspan></text>
+    <text x="24" y="300" class="l o" style="animation-delay:5s">العربية · English · Türkçe</text>
+
+    <text x="24" y="335" class="l" style="animation-delay:5.6s"><tspan class="p">➜ ~</tspan><tspan class="c"> cat fun_fact</tspan></text>
+    <text x="24" y="360" class="l o" style="animation-delay:6.1s">I debug better after midnight 🌙</text>
+
+    <text x="24" y="390" class="p" >➜ ~ <tspan class="cursor c">█</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+name: Build the pyramid
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day
+  workflow_dispatch:       # lets you run it manually
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Place today's stones
+        run: python3 .github/scripts/pyramid.py dist/pyramid.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
