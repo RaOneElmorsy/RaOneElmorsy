@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RaOneElmorsy/RaOneElmorsy/output/pyramid.svg?v=2" width="100%" alt="A pyramid built from my contributions, one stone per contribution. It is never finished." />
+  <img src="https://raw.githubusercontent.com/RaOneElmorsy/RaOneElmorsy/output/pyramid.svg?v=3" width="100%" alt="A pyramid built from my contributions, one stone per contribution. It is never finished." />
 </p>
 
 <p align="center"><sub>☕ → 🧑‍💻 → 🧱 · debugging after midnight 🌙</sub></p>

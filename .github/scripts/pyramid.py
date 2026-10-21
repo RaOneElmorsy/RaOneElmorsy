@@ -153,8 +153,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     <g class="placed">
 {chr(10).join(placed)}
     </g>
-    <text x="{PX:.0f}" y="{ground + 38:.0f}" text-anchor="middle" class="mono" font-size="20" font-weight="700" fill="#f2cc6b">every commit is a stone.</text>
-    <text x="{PX:.0f}" y="{ground + 64:.0f}" text-anchor="middle" class="mono" font-size="14" fill="#a9a9c8">the great pyramid took decades. mine is still going.</text>
+    <text x="{W / 2:.0f}" y="{ground + 38:.0f}" text-anchor="middle" class="mono" font-size="20" font-weight="700" fill="#f2cc6b">every commit is a stone.</text>
+    <text x="{W / 2:.0f}" y="{ground + 64:.0f}" text-anchor="middle" class="mono" font-size="14" fill="#a9a9c8">the great pyramid took decades. mine is still going.</text>
   </g>
 </svg>
 '''
